@@ -2,12 +2,26 @@ import br.com.alura.screenmatch.modelos.Filme;
 
 public class TesteGeral {
     public static void main(String[] args) {
-        int[] numeros = new int[5];
+
+
+
+
+        //Produto produto = new Produto();
+
+        //Carrinho carrinho = new Carrinho();
+
+        //carrinho.adicionaProduto(produto);
+
+
+
+        /*int[] numeros = new int[5];
 
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = i + 1;
         }
         System.out.println(numeros[0]);
+*/
+
 
         /*
         criando array instanciando parametros
