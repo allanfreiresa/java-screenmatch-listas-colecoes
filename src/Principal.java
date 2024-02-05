@@ -20,6 +20,7 @@ public class Principal {
         meuFilme.avalia(10);
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.pegaMedia());
+
         //meuFilme.somaDasAvaliacoes = 10;
         //meuFilme.totalDeAvaliacoes = 1;
         //System.out.println(meuFilme.pegaMedia());
@@ -67,9 +68,7 @@ public class Principal {
 
         System.out.println("Tamanho da lista " + listaDeFilmes.size());
         System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
-        System.out.println(listaDeFilmes.getClass());
-
-
+        System.out.println(listaDeFilmes);
 
     }
 }

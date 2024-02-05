@@ -9,6 +9,12 @@ public class Filme extends Titulo implements Classificavel {
         return diretor;
     }
 
+    //Criando metodo construtor com setter vindos do titulo
+    /*public Filme(String nome, int ano){
+        this.setNome(nome);
+        this.setAnoDeLancamento(ano);
+    }*/
+
     public void setDiretor(String diretor) {
         this.diretor = diretor;
     }
