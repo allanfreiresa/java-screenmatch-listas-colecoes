@@ -8,6 +8,8 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
+
+        //Filme meuFilme = new Filme("O poderoso chefão",1970);
         Filme meuFilme = new Filme("O poderoso chefão",1970);
         //meuFilme.setNome("O poderoso chefão");
         //meuFilme.setAnoDeLancamento(1970);
@@ -25,9 +27,9 @@ public class Principal {
         //meuFilme.totalDeAvaliacoes = 1;
         //System.out.println(meuFilme.pegaMedia());
 
-        Serie lost = new Serie();
-        lost.setNome("Lost");
-        lost.setAnoDeLancamento(2000);
+        Serie lost = new Serie("Lost", 2000);
+        //lost.setNome("Lost");
+        //lost.setAnoDeLancamento(2000);
         lost.exibeFichaTecnica();
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);

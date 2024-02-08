@@ -2,15 +2,32 @@ public class Produto  {
 
     private String nome;
     private double preco;
+    private int quantidade;
 
     private double precoUnitario;
-
     double precoFinal;
     double descontoParaPix;
-
     private double valor;
-
     private double peso;
+
+    public Produto(String nome, double preco, int quantidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto [nome=" + nome + ", preco=" + preco + ", quantidade=" + quantidade + "]";
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
 
     public void setPrecoUnitario(double precoUnitario) {
         this.precoUnitario = precoUnitario;
