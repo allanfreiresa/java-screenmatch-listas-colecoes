@@ -71,6 +71,8 @@ public class Principal {
         System.out.println(listaDeFilmes);
         System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
 
+        filmeDoPaulo.toString();
+
 
 
     }
