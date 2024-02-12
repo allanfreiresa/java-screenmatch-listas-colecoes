@@ -1,5 +1,3 @@
-import br.com.alura.screenmatch.modelos.Filme;
-
 public class Carrinho extends Produto{
 
 
